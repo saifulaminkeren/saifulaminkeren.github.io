@@ -33,25 +33,57 @@ ri<!DOCTYPE html>
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="glitch" data-text="Engineer Programmer">Engineer Programmer</h1>
-                <p class="typing-text"></p>
-                <div class="hero-buttons">
-                    <a href="#projects" class="btn primary">View My Work</a>
-                    <a href="#contact" class="btn secondary">Contact Me</a>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <!-- Tambahkan animated wave hand -->
+            <div class="greeting">
+                <span class="wave-hand">👋</span>
+                <span class="greeting-text">Hello, I'm</span>
+            </div>
+            <h1 class="glitch" data-text="Engineer Programmer">Engineer Programmer</h1>
+            <p class="typing-text"></p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">View My Work</a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <!-- Tambahkan avatar dengan animasi wave -->
+            <div class="avatar-container">
+                <div class="avatar">
+                    <div class="avatar-head">
+                        <div class="avatar-face">
+                            <div class="avatar-eyes">
+                                <div class="eye left"></div>
+                                <div class="eye right"></div>
+                            </div>
+                            <div class="avatar-smile"></div>
+                        </div>
+                    </div>
+                    <div class="avatar-body">
+                        <div class="arm left-arm waving">
+                            <div class="hand"></div>
+                        </div>
+                        <div class="arm right-arm"></div>
+                        <div class="torso"></div>
+                    </div>
+                </div>
+                <div class="code-bubbles">
+                    <span>&lt;code&gt;</span>
+                    <span>{ }</span>
+                    <span>[]</span>
+                    <span>() =&gt;</span>
                 </div>
             </div>
-            <div class="hero-image">
-                <div class="code-window">
-                    <div class="window-header">
-                        <span class="dot red"></span>
-                        <span class="dot yellow"></span>
-                        <span class="dot green"></span>
-                    </div>
-                    <div class="window-content">
-                        <pre><code>
+            <div class="code-window">
+                <div class="window-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="window-content">
+                    <pre><code>
 <span class="keyword">function</span> <span class="function">engineer</span>() {
     <span class="keyword">const</span> skills = [
         <span class="string">'Coding'</span>,
@@ -63,17 +95,17 @@ ri<!DOCTYPE html>
         <span class="string">`Mastering ${skill}`</span>
     );
 }
-                        </code></pre>
-                    </div>
+                    </code></pre>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </section>
+    </div>
+    <div class="scroll-indicator">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</section>
 
     <!-- About Section -->
 <section id="about" class="about">
